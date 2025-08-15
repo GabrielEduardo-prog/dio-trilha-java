@@ -1,6 +1,6 @@
 public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
 
-    // Métodos do Reprodutor Musical
+    //Métodos do Reprodutor Musical
     @Override
     public void tocar() {
         System.out.println("Reproduzindo música...");
@@ -16,7 +16,7 @@ public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         System.out.println("Selecionando música: " + musica);
     }
 
-    // Métodos do Aparelho Telefônico
+    //Métodos do Aparelho Telefônico
     @Override
     public void ligar(String numero) {
         System.out.println("Ligando para " + numero + "...");
@@ -32,7 +32,7 @@ public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         System.out.println("Iniciando correio de voz...");
     }
 
-    // Métodos do Navegador na Internet
+    //Métodos do Navegador na Internet
     @Override
     public void exibirPagina(String url) {
         System.out.println("Exibindo página: " + url);
