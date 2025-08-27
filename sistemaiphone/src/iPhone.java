@@ -32,7 +32,7 @@ public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         System.out.println("Iniciando correio de voz...");
     }
 
-    //Métodos do Navegador na Internet
+    
     @Override
     public void exibirPagina(String url) {
         System.out.println("Exibindo página: " + url);
